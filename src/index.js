@@ -1,3 +1,3 @@
-import pageHome from "./pageModule";
+import loadHome from "./pageModule";
 
-pageHome();
+loadHome();
