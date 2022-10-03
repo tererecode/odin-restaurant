@@ -1,3 +1,3 @@
-import pageLoad from "./pageModule";
+import pageHome from "./pageModule";
 
-pageLoad();
+pageHome();
