@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.body__layout {
+    display: grid;
+    grid-template-rows: max-content 100% 50px;
+}
+
+.header {
+    background: cornflowerblue;
+    padding: 2em;
+}
+
+.header__nav {
+    display: flex;
+    gap: 1em;
+}
+
+.header__nav--item {
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    background: rgba(46, 115, 243, 0.5);
+}
+
+.header__nav--item:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* just for now, should add a class to paragraphs */
+p {
+    max-width: 60%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
